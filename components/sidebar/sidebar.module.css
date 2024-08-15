@@ -1,0 +1,58 @@
+.sidebar{
+    position: absolute;
+    background-color: var(--neutral-almost-white);
+    top: 0;
+    right: 0;
+    width: 15rem;
+    height: 100%;
+}
+
+.closeButton{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    color: var(--neutral-medium-gray);
+    font-weight: 600;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.navbarItems {
+    color: var(--neutral-medium-gray);
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dropdown ul{
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dropdown ul li{
+    background-color: transparent;
+    display: flex;
+    gap: 1rem;
+}

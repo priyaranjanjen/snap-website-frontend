@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo{
+    padding-top: 8px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarItems{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.dropdown{
+    background-color: var(--neutral-almost-white);
+    position: absolute;
+    top: 4rem;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #888888;
+}
+
+.dropdown ul{
+    background-color: var(--neutral-almost-white);
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dropdown ul li{
+    background-color: transparent;
+    display: flex;
+    gap: 1rem;
+}
+
+.menuButton{
+    cursor: pointer;
+}
+
+.mainGrid{
+    
+}
+
+@media (max-width: 800px) {
+    
+}

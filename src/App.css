@@ -1,0 +1,75 @@
+:root{
+  --neutral-almost-white: hsl(0, 0%, 98%);
+  --neutral-medium-gray: hsl(0, 0%, 41%); 
+  --neutral-almost-black: hsl(0, 0%, 8%);
+}
+
+*{
+  margin: 0;
+  font-family: "Epilogue", sans-serif;
+}
+
+.body{
+  padding: 30px;
+  opacity:rgba(0, 0, 0, 0.33) ;
+}
+
+.heroSection{
+  margin-top: 4%;
+}
+
+.contentSection{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5.5rem;
+}
+
+.textSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 6rem;
+}
+
+.textSection h1{
+  font-size: 3em ;
+}
+
+.textSection p {
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--neutral-medium-gray);
+}
+
+.brandImages{
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 0 6rem;
+
+}
+
+.brandImages .brand{
+  height: 2rem;
+  width: 6rem;
+}
+
+.imageSection img{
+  width: 28rem;
+  height: 35rem;
+}
+
+.imageSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media (max-width: 800px) {
+  .sidebar {
+      height: 100%;
+    }
+} */

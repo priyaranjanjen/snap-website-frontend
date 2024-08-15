@@ -1,0 +1,22 @@
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--neutral-almost-white);
+    cursor: pointer;
+}
+
+.noBorder{
+    border: none;
+    color: var(--neutral-medium-gray);
+}
+
+.border{
+    border: 1px solid;
+    color: var(--neutral-medium-gray);
+}
+
+.withBackround{
+    background-color: var(--neutral-almost-black);
+    color: aliceblue;
+    
+}
